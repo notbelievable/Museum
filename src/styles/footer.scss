@@ -13,6 +13,11 @@
     @include grid;
   }
 
+  &__contact-link {
+    color: $color-bl;
+    text-decoration: none;
+  }
+
   &__item {
     display: flex;
     justify-content: space-between;
